@@ -1,0 +1,14 @@
+body {
+
+
+    transition: background-color 0.4s;
+}
+
+body.active {
+    background-image: linear-gradient(270deg, #002b33 0, #00272b 8.33%, #042124 16.67%, #061c1c 25%, #051615 33.33%, #030d0c 41.67%, #000000 50%, #000000 58.33%, #000000 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
+    /* Cambia el color de fondo aquí */
+}
+
+body.inactive {
+    background-image: radial-gradient(circle at 120.71% 50%, #bff9ff 0, #a3edfb 12.5%, #83e0f6 25%, #5bd1f1 37.5%, #0cc1ed 50%, #00b1e9 62.5%, #00a1e7 75%, #0093e4 87.5%, #0085e2 100%);
+}
