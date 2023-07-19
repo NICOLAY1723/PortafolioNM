@@ -1,5 +1,6 @@
 /* --------GENERAL STYLES -------- */
 * {
+
     margin: 0;
     padding: 0;
     scroll-padding-top: 4rem;
@@ -11,9 +12,11 @@
     --font-color: #fff;
     --secondary-bg-color: #ff4900;
     --font: "Poppins";
+
 }
 
 body {
+    background: linear-gradient(270deg, #002b33 0, #00272b 8.33%, #042124 16.67%, #061c1c 25%, #051615 33.33%, #030d0c 41.67%, #000000 50%, #000000 58.33%, #000000 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
     background-color: var(--bg-color);
     font-family: var(--font);
     color: var(--font-color);
@@ -174,7 +177,7 @@ body::-webkit-scrollbar-track {
     height: 100%;
     width: 100%;
     object-fit: cover;
-} 
+}
 
 .progress__bar {
     width: 100%;
